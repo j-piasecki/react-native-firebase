@@ -86,7 +86,8 @@
   "workspaces": {
     "packages": [
       "packages/*",
-      "tests"
+      "tests",
+      "FabricExample"
     ],
     "nohoist": [
       "**/sinon",
@@ -126,7 +127,8 @@
       "**/stacktrace-js",
       "**/stacktrace-js/**",
       "**/superstruct",
-      "**/superstruct/**"
+      "**/superstruct/**",
+      "FabricExample/**"
     ]
   }
 }
